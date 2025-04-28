@@ -192,3 +192,113 @@
   margin-top: 24px;
   margin-bottom: 0;
 }
+
+.reservation {
+  background-color: #d9e7ff;
+  background-image: url(../images/background_reservation.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.reservation__title {
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  padding-top: 100px;
+  padding-bottom: 80px;
+  margin: 0;
+}
+
+.reservation__form {
+  max-width: 385px;
+}
+
+.form__fieldset {
+  border: 0;
+}
+
+.form__label {
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  padding-top: 32px;
+  padding-bottom: 8px;
+}
+
+.form__input {
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 4px;
+  height: 60px;
+  max-width: 385px;
+}
+
+.form__input::placeholder {
+  padding: 15px 20px;
+}
+
+.form__input[type="datetime-local"] {
+  padding: 15px 20px;
+}
+
+.form__button {
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 4px;
+  max-width: 385px;
+  height: 60px;
+  border: 0;
+  width: 100%;
+  color: white;
+  margin-top: 32px;
+}
+
+.form__button:hover {
+  opacity: 0.7;
+}
+
+.form__button[type="submit"] {
+  background-color: #2f80ed;
+}
+
+.form__checkbox {
+  border-radius: 2px;
+  border: 0;
+  padding-bottom: 120px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.form__input[type="checkbox"] {
+  height: 20px;
+  width: 20px;
+}
+
+.form__checkbox_text {
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0;
+  position: relative;
+  left: 12px;
+}

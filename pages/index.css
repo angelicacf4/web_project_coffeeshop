@@ -211,7 +211,9 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  margin: 100px auto 80px auto;
+  padding-top: 100px;
+  padding-bottom: 80px;
+  margin: auto;
 }
 
 .reservation__form {
